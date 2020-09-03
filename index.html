@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <form class="form-inline my-2 my-lg-0">
+      <h1>Library</h1>
+      <ul></ul>
+      <button class="btn btn-primary" id="addBtn" type="button">Add Book</button>
+    </form>
+  </nav>
+    
+
+
+  <div class="container gray-div rounded"  id="formInputDisplay" style="display:none; margin-top: 1em; margin-bottom: 1em;">
+  <form>
+    <div class="form-group">
+      <label for="formGroupExampleInput">Book's Title</label>
+      <input type="text" class="form-control" id="bookName" placeholder="Type here...">
+    </div>
+    <div class="form-group">
+      <label for="authorInput">Author</label>
+      <input type="text" class="form-control" id="authorInput" placeholder="Type here...">
+    </div>
+    <div class="form-group">
+        <label for="pagesInput">Pages</label>
+        <input type="text" class="form-control" id="pagesInput" placeholder="Type here...">
+      </div>
+  </form>
+  <input type="checkbox" id="readCheckbox" name="readCheckbox" value="true">
+  <label for="readCheckbox"> Read </label>
+  <button type="button" class="btn btn-primary btn-lg btn-block" id="submitBook">Submit</button>
+</div>
+
+
+<table class="table table-width">
+  <thead>
+    <tr>
+      <th scope="col">No</th>
+      <th scope="col">Title</th>
+      <th scope="col">Author</th>
+      <th scope="col">Pages</th>
+      <th scope="col">Read?</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody id="tablebody">
+  </tbody>
+</table>
+
+<script src="main.js"></script>
+<script src="style.js"></script>
+</body>
+</html>

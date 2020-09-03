@@ -1,0 +1,43 @@
+
+
+.margin-class {
+    margin: 1em;
+}
+
+.gray-div {
+    background: #F7F7F7;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.unicolor {
+    background: #007bff;
+    color: white;
+}
+
+.submitBtnColorGreen {
+    background: #007bff;
+}
+
+.margin-p {
+    margin-top: 0.5em;
+    margin: 0.1em;
+    font-size: small;
+}
+
+.margin-plong {
+    margin-top: 3em;
+}
+
+.table-width {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.read-italic {
+    font-style: italic;
+}
